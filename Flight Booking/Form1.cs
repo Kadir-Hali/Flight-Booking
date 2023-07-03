@@ -23,9 +23,7 @@ namespace Flight_Booking
             listBox1.Items.Add("Rota: " + comboBox1.Text + " - " + comboBox2.Text);
             listBox1.Items.Add("Tarih ve Saat: " + dateTimePicker1.Text + "-" + maskedTextBox1.Text);
             listBox1.Items.Add("Yolcu Ad Soyad: " + textBox1.Text);
-
             listBox1.Items.Add("Yolcu Telefon ve TC :" + maskedTextBox3.Text + "-" + maskedTextBox2.Text);
-
             MessageBox.Show("Yolcu Başarıyla Kaydedildi!");
         }
 
